@@ -15,11 +15,12 @@ if (file_exists($LOCAL_ROOT)) {
     // If there is already a repo, just run a git pull to grab the latest changes
     shell_exec("cd {$LOCAL_ROOT} && git pull");
     echo (shell_exec("git status"));
-    die("done ");
+    die("done 1");
 } else {
 
     // If the repo does not exist, then clone it into the parent directory
     shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO}");
+
     echo (shell_exec("git status"));
-    die("done ");
+    die("done 2");
 }
