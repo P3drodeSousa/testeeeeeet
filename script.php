@@ -1,5 +1,5 @@
 <?php
-$output = shell_exec("git pull 2>&1");
+$output = shell_exec("git pull--all");
 echo '<pre>';
 echo $output;
 echo '<pre>';
