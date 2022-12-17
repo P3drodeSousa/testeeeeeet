@@ -13,6 +13,8 @@
 /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
 
+script.php
+
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
