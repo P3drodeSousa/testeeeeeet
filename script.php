@@ -17,13 +17,14 @@
 
 // Set Variables
 $LOCAL_ROOT         = "/home/clients/a683ce3e7f173dc4178c580ea6b4e7c3/sites/BNIDOC.studio60.ch";
-$LOCAL_REPO_NAME    = "api";
+$LOCAL_REPO_NAME    = "testeeeeeet";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:P3drodeSousa/testeeeeeet.git";
 $BRANCH             = "master";
 
 
 if (file_exists($LOCAL_REPO)) {
+    echo ("TRUE");
 
     // If there is already a repo, just run a git pull to grab the latest changes
     shell_exec("cd {$LOCAL_REPO} && git pull");
