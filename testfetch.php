@@ -1,2 +1,2 @@
 <?php
-echo "test works ?!?!ssss";
+echo "test works ?!?!";
